@@ -1,0 +1,8 @@
+{
+  "projectName": "blackjack-game",
+  "meta": {
+    "type": "frontend"
+  },
+  "packageManager": "npm",
+  "hash": "ff010358"
+}
