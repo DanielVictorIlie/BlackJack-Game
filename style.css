@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap");
 
 body {
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-image: url("./cards/background.png");
+  background-image: url("./cards/bj-bckg.png");
   background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   font-family: "Exo", "Times New Roman", Times, serif;
   font-weight: bold;
@@ -178,10 +181,10 @@ button {
   transform: skew(-15deg);
   letter-spacing: 0.03em;
   background: linear-gradient(
-    #852928 25%,
+    #fcfcfc 25%,
     #fc940c 35%,
     white 60%,
-    #852928 50%,
+    #fcfcfc 50%,
     #fc940c 55%,
     #fcf6ba 75%
   );
@@ -261,7 +264,7 @@ button {
 .account-info {
   display: flex;
   flex: 0;
-  margin-top: 1%;
+  margin-top: auto;
   width: 100%;
   justify-content: space-between;
   padding: 5px 0 5px 0;
@@ -407,6 +410,4 @@ button {
     padding: 0 !important;
     padding: 1% 3% 1% !important;
   }
-}
-@media (max-width: 375px) {
 }
